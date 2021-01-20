@@ -10,7 +10,7 @@ please [migrate][migration-guide], or consult the [legacy docs][legacy-quickstar
 
 ## Prerequisites
 
-- [Install operator-sdk][operator_install] and its prequisites.
+- [Install operator-sdk][operator_install] and its prerequisites.
 - Access to a Kubernetes v1.11.3+ cluster (v1.16.0+ if using `apiextensions.k8s.io/v1` CRDs).
 - User logged with admin permission. See [how to grant yourself cluster-admin privileges or be logged in as admin][role-based-access-control]
 
@@ -461,6 +461,7 @@ Also see the [advanced topics][advanced_topics] doc for more use cases and under
 [install-guide]:/docs/building-operators/golang/installation
 [enqueue_requests_from_map_func]: https://godoc.org/sigs.k8s.io/controller-runtime/pkg/handler#EnqueueRequestsFromMapFunc
 [event_handler_godocs]: https://godoc.org/sigs.k8s.io/controller-runtime/pkg/handler#hdr-EventHandlers
+[operator_install]: https://sdk.operatorframework.io/docs/installation/
 [event_filtering]:/docs/building-operators/golang/references/event-filtering/
 [controller_options]: https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/controller#Options
 [controller_godocs]: https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/controller
@@ -481,7 +482,7 @@ Also see the [advanced topics][advanced_topics] doc for more use cases and under
 [generating-crd]: https://book.kubebuilder.io/reference/generating-crd.html
 [markers]: https://book.kubebuilder.io/reference/markers.html
 [crd-markers]: https://book.kubebuilder.io/reference/markers/crd-validation.html
-[memcached_controller]: https://github.com/operator-framework/operator-sdk/blob/v1.2.0/testdata/go/memcached-operator/controllers/memcached_controller.go
+[memcached_controller]: https://github.com/operator-framework/operator-sdk/blob/v1.3.x/testdata/go/v3/memcached-operator/controllers/memcached_controller.go
 [builder_godocs]: https://godoc.org/github.com/kubernetes-sigs/controller-runtime/pkg/builder#example-Builder
 [activate_modules]: https://github.com/golang/go/wiki/Modules#how-to-install-and-activate-module-support
 [advanced_topics]: /docs/building-operators/golang/advanced-topics/
